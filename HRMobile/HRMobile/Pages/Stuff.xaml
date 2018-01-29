@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HRMobile.Pages.Stuff"
+            Title="Wapic Highlights">
+  <!--Pages can be added as references or inline-->
+    <ContentPage>
+        <StackLayout>
+            <Image Aspect="AspectFill" Source="b.jpg"/>
+            <BoxView HeightRequest="1" BackgroundColor="#ffffff"/>
+            <StackLayout Padding="10">
+                <Label Text="Wapic Insurance Boosts Industry Capacity with Inaugural Insuance Summit" FontAttributes="Bold"/>
+                <Label Text="Wapic Insurance has hosted the inaugural edition of its Annual Insurance Summit as part of unfolding initiatives to transform the insurance landscape in Sub-Saharan Africa. Themed 'Solvency II and the insurance industry, the strategic summit which held at the company's headquarters in Lagos last week, had participants from different segments of the insurance industry in Nigeria"/>
+            </StackLayout>
+            <BoxView HeightRequest="0" BackgroundColor="#ffffff"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout>
+            <Image Aspect="AspectFill" Source="about_1.jpg"/>
+            <BoxView HeightRequest="1" BackgroundColor="#ffffff"/>
+            <StackLayout Padding="10">
+                <Label Text="Wapic Insurance Boosts Industry Capacity with Inaugural Insuance Summit" FontAttributes="Bold"/>
+                <Label Text="Wapic Insurance has hosted the inaugural edition of its Annual Insurance Summit as part of unfolding initiatives to transform the insurance landscape in Sub-Saharan Africa. Themed 'Solvency II and the insurance industry, the strategic summit which held at the company's headquarters in Lagos last week, had participants from different segments of the insurance industry in Nigeria"/>
+            </StackLayout>
+            <BoxView HeightRequest="0" BackgroundColor="#ffffff"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout>
+            <Image Aspect="AspectFill" Source="imgYinka.jpg"/>
+            <BoxView HeightRequest="1" BackgroundColor="#ffffff"/>
+            <StackLayout Padding="10">
+                <Label Text="Wapic Insurance Boosts Industry Capacity with Inaugural Insuance Summit" FontAttributes="Bold"/>
+                <Label Text="Wapic Insurance has hosted the inaugural edition of its Annual Insurance Summit as part of unfolding initiatives to transform the insurance landscape in Sub-Saharan Africa. Themed 'Solvency II and the insurance industry, the strategic summit which held at the company's headquarters in Lagos last week, had participants from different segments of the insurance industry in Nigeria"/>
+            </StackLayout>
+            <BoxView HeightRequest="0" BackgroundColor="#ffffff"/>
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>

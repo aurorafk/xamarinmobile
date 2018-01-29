@@ -11,9 +11,10 @@ namespace HRMobile
 	{
 		public App ()
 		{
-			InitializeComponent();
+			InitializeComponent ();
 
-			MainPage = new HRMobile.MainPage();
+            MainPage = new NavigationPage(new Pages.Login());
+            //MainPage = new HRMobile.Home();
 		}
 
 		protected override void OnStart ()

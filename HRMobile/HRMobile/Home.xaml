@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HRMobile.Home"
+             xmlns:pages="clr-namespace:HRMobile">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="New" Icon="settings.png" Priority="0" Order="Secondary" Clicked="OnClick"/>
+    </ContentPage.ToolbarItems>
+    <MasterDetailPage.Master>
+        <ContentPage Title="HR Policies" BackgroundColor="#551a8b">
+            
+            <StackLayout Orientation="Vertical">
+                <!--u use for other data that you want in your menu drawer!-->
+                <StackLayout.Children>
+                    <!--<Label Text="{Binding Header}"/>-->
+                    <Image Source="{Binding Image}" Aspect="Fill"/>
+                    <Label Text="{Binding Footer}" TextColor="White"/>
+                </StackLayout.Children>
+                <ListView x:Name="navigationDrawerList" RowHeight="55" SeparatorVisibility="Default" BackgroundColor="#fff " ItemSelected="OnMenuItemSelected">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+
+                                <StackLayout VerticalOptions="FillAndExpand" Orientation="Horizontal" Padding="20,10,10,10" Spacing="20">
+                                    <Image Source="{Binding Icon}" WidthRequest="40" HeightRequest="40" VerticalOptions="Start"/>
+                                    <Label Text="{Binding Title}" FontSize="Small" TextColor="Black" VerticalOptions="End"/>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+  <MasterDetailPage.Detail>
+       <NavigationPage>
+           <x:Arguments>
+       <pages:HomeDetail />
+      </x:Arguments>
+    </NavigationPage>
+  </MasterDetailPage.Detail>
+</MasterDetailPage>

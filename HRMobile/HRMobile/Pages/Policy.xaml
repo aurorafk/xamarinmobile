@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HRMobile.Pages.Policy"
+             Title="Wapic Policy">
+    <ScrollView>
+        <Grid Margin="0,0,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+
+
+            </Grid.ColumnDefinitions>
+            <!--//row one is fixed 100-->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+
+            </Grid.RowDefinitions>
+            <!--<Label Text="You (X)" Grid.Row="0" Grid.Column="0" Margin="5" />
+
+        <Label cText="Opponent (0)" Grid.Row="0" Grid.Column="2" Margin="5" HorizontalTextAlignment="End" />-->
+            <Button ClassId="btn1" x:Name="button1" TextColor="White" FontSize="Micro" Text="Claim Leakage Policy" Grid.Row="0" Grid.Column="0" BackgroundColor="Red" Clicked="Button_Clicked"/>
+            <Button ClassId="btn2" x:Name="button2" TextColor="White" FontSize="Micro" Text="Clean Desk Policy" Grid.Row="0" Grid.Column="1" BackgroundColor="PowderBlue" Clicked="Button_Clicked"/>
+            <Button ClassId="btn3" x:Name="button3" TextColor="White" FontSize="Micro" Text="Complaint Policy" Grid.Row="1" Grid.Column="0" BackgroundColor="SeaGreen" Clicked="Button_Clicked"/>
+            <Button ClassId="btn4" x:Name="button4" TextColor="White" FontSize="Micro" Text="Dress Code" Grid.Row="1" Grid.Column="1" BackgroundColor="Salmon" Clicked="Button_Clicked"/>
+            <Button ClassId="btn5" x:Name="button5" TextColor="White" FontSize="Micro" Text="Grievance Policy" Grid.Row="2" Grid.Column="0" BackgroundColor="Fuchsia" Clicked="Button_Clicked"/>
+            <Button ClassId="btn6" x:Name="button6" TextColor="White" FontSize="Micro" Text="Laundering Policy" Grid.Row="2" Grid.Column="1" BackgroundColor="Violet" Clicked="Button_Clicked"/>
+            <Button ClassId="btn7" x:Name="button7" TextColor="White" FontSize="Micro" Text="Lunch Room Policy" Grid.Row="3" Grid.Column="0" BackgroundColor="Purple" Clicked="Button_Clicked"/>
+            <Button ClassId="btn8" x:Name="button8" TextColor="White" FontSize="Micro" Text="Pool Cars" Grid.Row="3" Grid.Column="1" BackgroundColor="Magenta" Clicked="Button_Clicked"/>
+            <Button ClassId="btn9" x:Name="button9" TextColor="White" FontSize="Micro" Text="Related Party Policy" Grid.Row="4" Grid.Column="0" BackgroundColor="Plum" Clicked="Button_Clicked"/>
+            <Button ClassId="btn10" x:Name="button10" TextColor="White" FontSize="Micro" Text="Relocation Policy" Grid.Row="4" Grid.Column="1" BackgroundColor="CadetBlue" Clicked="Button_Clicked"/>
+
+            <!--<StackLayout x:Name="GameOverStackLayout" Grid.Row="0" Grid.Column="1" IsVisible="False">
+            <Label Text="Game Over" HorizontalTextAlignment="Center"/>-->
+            <!--<Button Text="Play again" Clicked="playagain_Clicked"/>-->
+            <!--</StackLayout>-->
+        </Grid>
+    </ScrollView>
+</ContentPage>
