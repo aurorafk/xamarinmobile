@@ -2,6 +2,7 @@
 <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HRMobile.Home"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions" 
              xmlns:pages="clr-namespace:HRMobile">
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="New" Icon="settings.png" Priority="0" Order="Secondary" Clicked="OnClick"/>
@@ -13,15 +14,18 @@
                 <!--u use for other data that you want in your menu drawer!-->
                 <StackLayout.Children>
                     <!--<Label Text="{Binding Header}"/>-->
-                    <Image Source="{Binding Image}" Aspect="Fill"/>
+                    <controls:CircleImage Grid.RowSpan="2"  WidthRequest="100"  HeightRequest="100" Source="{Binding Image}"  Aspect="AspectFit" />
+
+                    <!--<Image Source="{Binding Image}" Aspect="Fill"/>-->
                     <Label Text="{Binding Footer}" TextColor="White"/>
                 </StackLayout.Children>
-                <ListView x:Name="navigationDrawerList" RowHeight="55" SeparatorVisibility="Default" BackgroundColor="#fff " ItemSelected="OnMenuItemSelected">
+                <ListView x:Name="navigationDrawerList" RowHeight="40" SeparatorVisibility="None" BackgroundColor="#fff " ItemSelected="OnMenuItemSelected">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
 
-                                <StackLayout VerticalOptions="FillAndExpand" Orientation="Horizontal" Padding="20,10,10,10" Spacing="20">
+                                <StackLayout VerticalOptions="FillAndExpand" Orientation="Horizontal" Padding="10,10,10,10" Spacing="20">
+                                    
                                     <Image Source="{Binding Icon}" WidthRequest="40" HeightRequest="40" VerticalOptions="Start"/>
                                     <Label Text="{Binding Title}" FontSize="Small" TextColor="Black" VerticalOptions="End"/>
                                 </StackLayout>

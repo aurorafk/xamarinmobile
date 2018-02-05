@@ -51,7 +51,7 @@ namespace HRMobile
 
             switch (string_name)
             {
-                case "policy2.jpg":
+                case "policy1.jpg":
 
                     //this.HomePage. = true;
                     await Navigation.PushAsync(new Pages.Policy());
@@ -59,15 +59,13 @@ namespace HRMobile
                     i.Opacity = 1;
 
                     break;
-                case "utube2.jpg":
+                case "utube1.jpg":
 
-                    //this.HomePage. = true;
-                    await Navigation.PushAsync(new Pages.YouTubeChannelPage());
-                    //Make image visible 
-                    i.Opacity = 1;
-
+                    //Page myPage = new FreshNavigationContainer(FreshPageModelResolver.ResolvePageModel<YouTubeChannelPageModel>());
+                    await Navigation.PushAsync(FreshPageModelResolver.ResolvePageModel<YouTubeChannelPageModel>());
                     break;
-                case "infoHR.jpg":
+                    
+                case "Hrinfo1.jpg":
 
                     //this.HomePage. = true;
                     await Navigation.PushAsync(new Pages.Policy1());
