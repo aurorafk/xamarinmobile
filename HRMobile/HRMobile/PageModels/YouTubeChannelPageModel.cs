@@ -16,7 +16,7 @@ namespace HRMobile.PageModels
     {
         // Get your API Key @ https://console.developers.google.com/apis/api/youtube/
         const string ApiKey = "AIzaSyB2Hu4D97zOB8f410cwT2rCc6JnmwoLCAo";
-        const string ChannelId = "UCoal_hpPIPAnWlG-kWHLheA";
+        const string ChannelId = "UCH755BXNpnOGxv3_keN6RIg";
 
         // Documentation @ https://developers.google.com/apis-explorer/#p/youtube/v3/youtube.videos.list 
         string channelUrl = $"https://www.googleapis.com/youtube/v3/search?part=id&maxResults=20&channelId={ChannelId}&key={ApiKey}";

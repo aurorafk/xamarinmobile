@@ -428,12 +428,6 @@
     <AndroidResource Include="Resources\drawable\coins.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\home.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\homeIcon.png" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable\investment.png" />
   </ItemGroup>
   <ItemGroup>
@@ -593,17 +587,24 @@
     <AndroidResource Include="Resources\drawable\moov.jpg" />
     <AndroidResource Include="Resources\drawable\gallery.png" />
     <AndroidResource Include="Resources\drawable\peoplelaughing.jpg" />
-    <AndroidResource Include="Resources\drawable\home2.png" />
-    <AndroidResource Include="Resources\drawable\home40.png" />
     <AndroidResource Include="Resources\drawable\palace40.png" />
     <AndroidResource Include="Resources\drawable\img5.gif" />
     <AndroidResource Include="Resources\drawable\NiceColourful.jpg" />
     <AndroidResource Include="Resources\drawable\motilayo.jpg" />
     <AndroidResource Include="Resources\drawable\ibrahim.jpg" />
     <AndroidResource Include="Resources\drawable\infoHR.jpg" />
-    <AndroidResource Include="Resources\drawable\policy2.jpg" />
     <AndroidResource Include="Resources\drawable\motun.jpg" />
     <AndroidResource Include="Resources\drawable\utube2.jpg" />
+    <AndroidResource Include="Resources\drawable\abouticon.png" />
+    <AndroidResource Include="Resources\drawable\newsicon.png" />
+    <AndroidResource Include="Resources\drawable\policyicon.png" />
+    <AndroidResource Include="Resources\drawable\galleryicon.png" />
+    <AndroidResource Include="Resources\drawable\peopleicon.png" />
+    <AndroidResource Include="Resources\drawable\homeicon.png" />
+    <AndroidResource Include="Resources\drawable\profile.png" />
+    <AndroidResource Include="Resources\drawable\Hrinfo1.jpg" />
+    <AndroidResource Include="Resources\drawable\policy1.jpg" />
+    <AndroidResource Include="Resources\drawable\utube1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

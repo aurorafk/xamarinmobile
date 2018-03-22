@@ -19,12 +19,12 @@ namespace HRMobile
             Menulist = new List<MasterPageItem>();
             InitializeComponent();
             //MasterPage.ListView.ItemSelected += ListView_ItemSelected;
-            var page1 = new MasterPageItem() { Title = "Home", Icon = "home", TargetType = typeof(MainPage) };
-            var page2 = new MasterPageItem() { Title = "People", Icon = "loading", TargetType = typeof(Pages.Policy1) };
-            var page3 = new MasterPageItem() { Title = "Highlights", Icon = "settings", TargetType = typeof(Pages.Stuff) };
-            var page4 = new MasterPageItem() { Title = "Policies", Icon = "technology", TargetType = typeof(Pages.Policy) };
-            var page5 = new MasterPageItem() { Title = "About", Icon = "trending", TargetType = typeof(HomeDetail) };
-            var page6 = new MasterPageItem() { Title = "Gallery", Icon = "loading", TargetType = typeof(Pages.Gallery) };
+            var page1 = new MasterPageItem() { Title = "Home", Icon = "homeicon", TargetType = typeof(MainPage) };
+            var page2 = new MasterPageItem() { Title = "About", Icon = "abouticon", TargetType = typeof(Pages.About) };
+            var page3 = new MasterPageItem() { Title = "People", Icon = "peopleicon", TargetType = typeof(Pages.Policy1) };
+            var page4 = new MasterPageItem() { Title = "Highlights", Icon = "newsicon", TargetType = typeof(Pages.Stuff) };
+            var page5 = new MasterPageItem() { Title = "Policies", Icon = "policyicon", TargetType = typeof(Pages.Policy) };
+            var page6 = new MasterPageItem() { Title = "Gallery", Icon = "galleryicon", TargetType = typeof(Pages.Gallery) };
 
             Menulist.Add(page1);
             Menulist.Add(page2);
@@ -39,8 +39,8 @@ namespace HRMobile
             this.BindingContext = new
             {
                 //Header = "",
-                Image = "NiceColourful.jpg",
-                Footer = "Welcome " + name
+                Image = "profile.png",
+                Footer = " Welcome " + name
             };
 
         

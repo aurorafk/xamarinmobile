@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
               xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions" 
              x:Class="HRMobile.Pages.Policy1"
-             Title="Policy">
+             Title="HR People">
 <ContentPage.Content>
         <ScrollView>
             <StackLayout>
@@ -14,53 +14,43 @@
                 HorizontalOptions="CenterAndExpand"
                  />
                 <Label TextColor="Black" FontSize="Micro" Text="Group Head, Head Human Resource"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
                  />
                 <Image Source="img3.jpg" VerticalOptions="Center" HorizontalOptions="Center" Margin="50" />
                 <!--<Entry Text="{Binding TaskModel.Title}"/>-->
 
-                <Label Text="Chineneye Mgbemere"
+                <Label Text="Chinenye Mgbemere"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"
                  />
-                <Label Text="Learning and Development, Performance Management related matters"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand"
-                 />
-                <Image Source="motun.jpg" VerticalOptions="Center" HorizontalOptions="Center" Margin="50" />
+                <Label FontSize="Micro"  Text="Learning and Development,&#x0a;Performance Management related matters"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center">
+                    <Label.Text>
+                        
+                    </Label.Text>
+                </Label>
+                    <Image Source="motun.jpg" VerticalOptions="Center" HorizontalOptions="Center" Margin="50" />
                 <Label TextColor="Black" Text="Motunrayo Abeke Shosanya"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"
                  />
-                <Label TextColor="Black" Text="Welfare and Recruitment related matters( Leave, HMO, Subscriptions)"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand"
+                <Label TextColor="Black" FontSize="Micro" Text="Welfare and Recruitment related matters &#x0a; ( Leave, HMO, Subscriptions)"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
                  />
-
-               
-                <!--<Entry Text="{Binding TaskModel.Duration}" />-->
-                <Image Source="img3.jpg" VerticalOptions="Center" HorizontalOptions="Center" Margin="50" />
-                <!--<Entry Text="{Binding TaskModel.Title}"/>-->
-
-                <Label TextColor="Black"  Text="Chineneye Mgbemere"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand"
-                 />
-                <Label TextColor="Black" Text="Recruitment Officer"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand"
-                 />
+                                           
                 <Image Source="ibrahim.jpg" VerticalOptions="Center" HorizontalOptions="Center" Margin="50" />
                 <!--<Entry Text="{Binding TaskModel.Title}"/>-->
 
                 <Label TextColor="Black"  Text="Ibrahim Ajadi"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
                  />
-                <Label Text="Assist in recruitment and Support staff (TO’s and Secretaries) related matters."
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand"
+                <Label FontSize="Micro" TextColor="Black" Text="Assist in recruitment and Support staff&#x0a;(TO’s and Secretaries) related matters."
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
                  />
 
             </StackLayout>

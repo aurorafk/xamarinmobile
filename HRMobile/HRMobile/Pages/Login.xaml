@@ -5,9 +5,9 @@
              x:Class="HRMobile.Pages.Login">
     <ContentPage.Content>
         <StackLayout Margin="10" Spacing="20" Padding="15" BackgroundColor="AliceBlue">
-            <controls:CircleImage Grid.RowSpan="2"  WidthRequest="100"  HeightRequest="100" Source="login_icon.png"  Aspect="AspectFit" />
+            <controls:CircleImage Grid.RowSpan="2"  WidthRequest="100"  HeightRequest="100" Source="NiceColourful.jpg"  Aspect="AspectFit" />
 
-            <Entry x:Name="username" VerticalOptions="Center"  Placeholder="fsa/sa code"/>
+            <Entry x:Name="username" VerticalOptions="Center"  Placeholder="staff code"/>
 
 
             <Entry x:Name="password" IsPassword="True" Placeholder="password"/>

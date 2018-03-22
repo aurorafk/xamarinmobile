@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HRMobile.Pages.About"
+             Title="Corporate Philosophy">
+    <ContentPage.Content>
+        <StackLayout>
+            <BoxView HeightRequest="1" BackgroundColor="#ffffff"/>
+            <StackLayout Padding="10">
+                <Label Text="Our Vision" FontSize="Medium" TextColor="Purple"/>
+                <Label FontSize="Small" Text="To transform and illuminate the insurance industry for the benefit of our customers and other stakeholders."/>
+            </StackLayout>
+            <BoxView HeightRequest="0" BackgroundColor="#ffffff"/>
+             <StackLayout Padding="10">
+                <Label FontSize="Medium" Text="Our Mission" TextColor="Purple"/>
+                <Label FontSize="Small" Text="To lead in all that is worthy."/>
+            </StackLayout>
+            <BoxView HeightRequest="0" BackgroundColor="#ffffff"/>
+            <StackLayout>
+                <Label FontSize="Medium" Text="Our Core Values" TextColor="Purple" />
+                <Label FontSize="Small" Text="Excellence"/>
+                <Label FontSize="Small" Text="Professionalism"/>
+                <Label FontSize="Small" Text="Innovation"/>
+                <Label FontSize="Small" Text="Sustainability"/>
+                <Label FontSize="Small" Text="Teamwork"/>
+                <Label FontSize="Small" Text="Leadership"/>
+                <Label FontSize="Small" Text="Empathy"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
