@@ -50,6 +50,12 @@
     <AndroidSupportedAbis>armeabi;armeabi-v7a;x86;x86_64;arm64-v8a</AndroidSupportedAbis>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Identity.Client">
+      <HintPath>..\..\..\..\..\Desktop\WapicInsider\B2CQuickstart\B2CQuickstart.Droid\bin\Debug\Microsoft.Identity.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Identity.Client.Platform">
+      <HintPath>..\..\..\..\..\Desktop\WapicInsider\B2CQuickstart\B2CQuickstart.Droid\bin\Debug\Microsoft.Identity.Client.Platform.dll</HintPath>
+    </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="System" />
     <Reference Include="System.Core" />

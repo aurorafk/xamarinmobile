@@ -16,6 +16,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="Microsoft.Identity.Client">
+      <HintPath>..\..\..\..\..\Desktop\WapicInsider\packages\Microsoft.Identity.Client.1.0.304142221-alpha\lib\portable-net45+win\Microsoft.Identity.Client.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="App.xaml.cs">
       <DependentUpon>*.xaml</DependentUpon>
     </Compile>

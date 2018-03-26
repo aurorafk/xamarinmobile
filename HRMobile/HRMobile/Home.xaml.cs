@@ -15,7 +15,7 @@ namespace HRMobile
         public List<MasterPageItem> Menulist{ get; set; }
         public Home()
         {
-            string name = "Aurora";
+            //string name = "Aurora";
             Menulist = new List<MasterPageItem>();
             InitializeComponent();
             //MasterPage.ListView.ItemSelected += ListView_ItemSelected;
@@ -40,7 +40,7 @@ namespace HRMobile
             {
                 //Header = "",
                 Image = "profile.png",
-                Footer = " Welcome " + name
+                Footer = " Welcome " //+ name
             };
 
         
@@ -60,7 +60,7 @@ namespace HRMobile
 
         private async void OnClick(object sender, EventArgs e)
         {
-            var browser = new Pages.Login();
+             var browser = new Pages.Login();
             await Navigation.PushAsync(browser);
         }
         //private void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)

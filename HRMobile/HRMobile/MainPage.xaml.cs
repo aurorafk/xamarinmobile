@@ -63,6 +63,7 @@ namespace HRMobile
 
                     //Page myPage = new FreshNavigationContainer(FreshPageModelResolver.ResolvePageModel<YouTubeChannelPageModel>());
                     await Navigation.PushAsync(FreshPageModelResolver.ResolvePageModel<YouTubeChannelPageModel>());
+                    i.Opacity = 1;
                     break;
                     
                 case "Hrinfo1.jpg":

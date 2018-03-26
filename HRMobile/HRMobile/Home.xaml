@@ -5,7 +5,7 @@
              xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions" 
              xmlns:pages="clr-namespace:HRMobile">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="New" Icon="settings.png" Priority="0" Order="Secondary" Clicked="OnClick"/>
+        <ToolbarItem Text="Logout" Icon="settings.png" Priority="0" Order="Secondary" Clicked="OnClick"/>
     </ContentPage.ToolbarItems>
     <MasterDetailPage.Master>
         <ContentPage Title="HR Policies" BackgroundColor="#551a8b">

@@ -1,10 +1,9 @@
 ﻿using System;
-
+using Xamarin.Forms;
+using Microsoft.Identity.Client;
 using Android.App;
 using Android.Content.PM;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
+using Android.Content;
 using HRMobile;
 using Android.OS;
 
@@ -22,6 +21,15 @@ namespace HRMobile.Droid
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
+#pragma warning disable CS0618 // Type or member is obsolete
+            App.AuthenticationClient.PlatformParameters = new PlatformParameters(Forms.Context as Activity);
+#pragma warning restore CS0618 // Type or member is obsolete
+        }
+        protected override void OnActivityResult(int requestCode, Result resultCode, Intent data)
+        {
+            base.OnActivityResult(requestCode, resultCode, data);
+
+            AuthenticationAgentContinuationHelper.SetAuthenticationAgentContinuationEventArgs(requestCode, resultCode, data);
         }
     }
 }

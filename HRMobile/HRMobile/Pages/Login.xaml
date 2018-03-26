@@ -7,11 +7,12 @@
         <StackLayout Margin="10" Spacing="20" Padding="15" BackgroundColor="AliceBlue">
             <controls:CircleImage Grid.RowSpan="2"  WidthRequest="100"  HeightRequest="100" Source="NiceColourful.jpg"  Aspect="AspectFit" />
 
-            <Entry x:Name="username" VerticalOptions="Center"  Placeholder="staff code"/>
+            <!--<Entry x:Name="username" VerticalOptions="Center"  Placeholder="staff code"/>
 
 
-            <Entry x:Name="password" IsPassword="True" Placeholder="password"/>
+            <Entry x:Name="password" IsPassword="True" Placeholder="password"/>-->
 
+            
             <Button x:Name="login_button" Clicked="LoginClick" BackgroundColor="#551a8b"  Text="Login" TextColor="White"/>
 
 
