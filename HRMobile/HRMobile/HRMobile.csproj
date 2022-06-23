@@ -8,7 +8,7 @@
     <PackageReference Include="Fody" Version="2.3.20" />
     <PackageReference Include="FreshMvvm" Version="2.2.3" />
     <PackageReference Include="Humanizer" Version="2.2.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="11.0.1-beta3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="Plugins.Forms.ButtonCircle" Version="2.0.1-beta" />
     <PackageReference Include="PropertyChanged.Fody" Version="2.2.5" />
     <PackageReference Include="Xam.Plugins.Forms.ImageCircle" Version="2.0.0.36-beta" />
